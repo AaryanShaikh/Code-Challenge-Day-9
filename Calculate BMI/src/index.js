@@ -11,7 +11,6 @@
 
 // Write the function to find the bmi obtained.
 function bmi(weight, height) {
-     //your code here
-    
-  }
+  return (weight / (height * height) <= 18.5) ? "Underweight" : (weight / (height * height) <= 25.0) ? "Normal" : (weight / (height * height) <= 30.0) ? "Overweight" : "Obese"
+}
 //Use SpecRunner to check the Test Cases.

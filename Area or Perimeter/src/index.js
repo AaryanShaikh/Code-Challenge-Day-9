@@ -7,9 +7,9 @@
 
 
 // Write the function to find the areaOrPerimeter obtained.
-const areaOrPerimeter = function(l , w) {
-      //your code here
-    
-  }
+const areaOrPerimeter = function (l, w) {
+  return (l == w) ? l * w : 2 * (l + w);
+
+}
 
 //Use SpecRunner to check the Test Cases.
